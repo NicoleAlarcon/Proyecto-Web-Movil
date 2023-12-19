@@ -1,6 +1,8 @@
 import 'package:app_reconciliacion/Components/colors.dart';
 import 'package:flutter/material.dart';
 
+//Para mantener privada la contraseña al momento de escribirla
+
 class InputField extends StatelessWidget {
   final String hint;
   final IconData icon;

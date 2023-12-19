@@ -1,8 +1,8 @@
 import 'package:app_reconciliacion/Components/button.dart';
-import 'package:app_reconciliacion/Components/button_nav.dart';
-import 'package:app_reconciliacion/Components/textfield.dart';
 import 'package:app_reconciliacion/Views/login.dart';
 import 'package:flutter/material.dart';
+
+//Lo primero que se muestra al ingresar a la app
 
 class AuthScreen extends StatelessWidget {
   const AuthScreen({super.key});
@@ -21,10 +21,10 @@ class AuthScreen extends StatelessWidget {
                 Expanded(
                     child: Image.asset('assets/image/logo_reconciliacion.png')),
                 const Text(
-                  'Iniciar Sesión',
+                  'Bienvenido!',
                   style: TextStyle(fontSize: 35, fontWeight: FontWeight.bold),
                 ),
-                const Text('Email'),
+                const Text('Por favor haz click en el botón de abajo'),
                 Button(
                     label: 'INGRESAR',
                     press: () {
